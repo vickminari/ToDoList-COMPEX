@@ -1,3 +1,5 @@
+#python -m uvicorn server:app --reload
+
 from uuid import uuid4
 from fastapi import FastAPI
 from pydantic import BaseModel
